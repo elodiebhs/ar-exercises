@@ -20,3 +20,9 @@ puts "----------"
 # Your code goes here ...
 
 
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Elodie", last_name: "Aboui", hourly_rate: 60)
+@store1.employees.create(first_name: "Tilman", last_name: "Natoul", hourly_rate: 60)
+@store2.employees.create(first_name: "Emily", last_name: "Arri", hourly_rate: 60)
+@store2.employees.create(first_name: "Kevin", last_name: "Bella", hourly_rate: 60)
+@store2.employees.create(first_name: "Jeremy", last_name: "Lorel", hourly_rate: 60)
